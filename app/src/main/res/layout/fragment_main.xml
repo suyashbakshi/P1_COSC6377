@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="net.ddns.suyashbakshi.smarthome.MainActivityFragment"
+    tools:showIn="@layout/activity_main"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="@string/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/usernameTv"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="25sp"
+        android:textStyle="normal|bold"
+        android:layout_marginBottom="10dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/usernameEt"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/enter_username_here"
+        android:maxLines="1" />
+
+    <TextView
+        android:text="@string/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/passwordTv"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="25sp"
+        android:textStyle="normal|bold"
+        android:layout_marginBottom="10dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/passwordEt"
+        android:hint="@string/enter_password_here"
+        android:fontFamily="sans-serif" />
+
+    <Button
+        android:text="Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginBtn"
+        android:layout_marginTop="@dimen/button_margin"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

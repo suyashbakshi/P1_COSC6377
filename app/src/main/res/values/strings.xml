@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SmartHome</string>
+    <string name="title_activity_main">Smart Home</string>
+    <string name="action_settings">Settings</string>
+    <string name="enter_password_here">Enter password here</string>
+    <string name="enter_username_here">Enter username here</string>
+    <string name="password">Password:</string>
+    <string name="username">Username:</string>
+    <string name="title_activity_device">Your Devices</string>
+</resources>
